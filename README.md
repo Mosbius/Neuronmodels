@@ -5,7 +5,7 @@ A Python package containing implementations of various neural network components
 ## Installation
 
 ```bash
-pip install neuronmodels
+pip install neuronmodels==0.1b
 
 
 ```
