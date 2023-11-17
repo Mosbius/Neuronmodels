@@ -8,6 +8,11 @@ A Python package containing implementations of various neural network components
 pip install neuronmodels==0.1b
 
 
+
+```
+or
+```bash
+pip install neuronmodels
 ```
 # Usage
 # Activation Functions
