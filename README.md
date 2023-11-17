@@ -1,11 +1,11 @@
-# NeuralNetworks Package
+# neuronmodels Package
 
 A Python package containing implementations of various neural network components.
 
 ## Installation
 
 ```bash
-pip install neuralnetworks
+pip install neuronmodels
 
 
 ```
@@ -15,7 +15,7 @@ pip install neuralnetworks
 python
 Copy code
 import numpy as np
-from neuralnetworks import sigmoid, tanh, relu, leaky_relu, softmax, der_sigmoid
+from neuronmodels import sigmoid, tanh, relu, leaky_relu, softmax, der_sigmoid
 
 # Example usage
 x = np.array([0.5, -0.2, 0.1])
@@ -30,7 +30,7 @@ result_der_sigmoid = der_sigmoid(x)
 
 # MP Neuron Model
 ```bash
-from neuralnetworks import MPNeuron
+from neuronmodels import MPNeuron
 
 # Example usage
 weights = [0.2, -0.5, 1.0]
@@ -44,7 +44,7 @@ print("MPNeuron Output:", output)
 # backpropogation network
 
 ```bash
-from neuralnetworks import backpropogation
+from neuronmodels import backpropogation
 
 # Example usage
 input_size = 3
@@ -61,7 +61,7 @@ nn.train(inputs, targets, learning_rate)
 ```
 # Perceptron model
 ```bash
-from neuralnetworks import Perceptron
+from neuronmodels import Perceptron
 
 # Example usage
 input_size = 3
